@@ -10,7 +10,7 @@ import { supabase } from "./supabase";
 import type { Profile } from "./types";
 
 // Designate an admin by email. Change this to your own admin email.
-const ADMIN_EMAILS = ["admin@brixnode.com"];
+const ADMIN_EMAILS = ["honestansah@gmail.com"];
 
 interface AuthCtx {
   user: { id: string; email: string } | null;
