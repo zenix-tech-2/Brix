@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/((?!sw.js|manifest.webmanifest|robots.txt|sitemap.xml|icon-.*).*)", "destination": "/" }]
+}

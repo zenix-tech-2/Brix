@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#6366f1" />
+
+    <title>Brixnode — The elevated hub for digital tools, AI assets & templates</title>
+    <meta name="description" content="Brixnode is the elevated hub for digital tools, AI assets, templates, knowledge & creation. Discover, pay securely, and get instant access after approval." />
+    <meta name="keywords" content="digital marketplace, templates, AI prompts, presets, ebooks, notion templates, creator economy, Brixnode" />
+    <meta name="author" content="Brixnode" />
+    <link rel="canonical" href="https://brixnode.vercel.app/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Brixnode — Digital tools, AI assets & templates" />
+    <meta property="og:description" content="The elevated hub for digital tools, AI assets, templates, knowledge & creation." />
+    <meta property="og:site_name" content="Brixnode" />
+    <meta property="og:url" content="https://brixnode.vercel.app/" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Brixnode — Digital tools & AI assets" />
+    <meta name="twitter:description" content="The elevated hub for digital tools, AI assets, templates, knowledge & creation." />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon-512.png" />
+    <link rel="icon" type="image/png" href="/icon-512.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Brixnode" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Brixnode",
+        "url": "https://brixnode.vercel.app/",
+        "description": "The elevated hub for digital tools, AI assets, templates, knowledge & creation.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://brixnode.vercel.app/explore?search={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

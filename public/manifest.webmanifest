@@ -1,0 +1,25 @@
+{
+  "name": "Brixnode — Digital Marketplace",
+  "short_name": "Brixnode",
+  "description": "The elevated hub for digital tools, AI assets, templates, knowledge & creation.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1120",
+  "theme_color": "#6366f1",
+  "orientation": "portrait",
+  "categories": ["shopping", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
